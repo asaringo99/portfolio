@@ -3,9 +3,9 @@ const nextConfig = {
     basePath: process.env.GITHUB_ACTIONS && "/portfolio",
     trailingSlash: true,
     // 可能なら外したい
-    // images: {
-    //     unoptimized: true
-    // },
+    images: {
+        unoptimized: true
+    },
     output: 'export',
 }
 
