@@ -19,7 +19,7 @@ const ReceptionPage: FC<ReceptionPageProps> = ({ handleClickVector }) => (
     <div className={styles.container}>
         <div className={styles.fadeInContainer}>
             <FadeIn>
-                <TitleWithIcon title="ASARINGO'S Portfolio" uri='/bird.png' uri2='/birdzoom.png'/>
+                <TitleWithIcon title="FORCE IS POWER" uri='/bird.png' uri2='/birdzoom.png'/>
             </FadeIn>
         </div>
         <div className={styles.slideUpContainer}>
