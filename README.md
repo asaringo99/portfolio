@@ -4,7 +4,7 @@
 
 Hi! I'm asaringo! Welcome to my portfolio! Check out my work and projects.
 
-[**Click Here to Visit my Portfolio**](https://example.com)
+[**Click Here to Visit my Portfolio**](https://asaringo99.github.io/portfolio/home)
 
 Feel free to reach out to me if you have any questions or inquiries!
 
