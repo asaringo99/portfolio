@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import React, { FC, useState, useEffect, useRef } from 'react'
 import styles from './TitleWithIcon.module.css'
 
@@ -37,7 +37,7 @@ const TitleWithIcon: FC<TitleWithIconProps> = ({ title, uri, uri2 }) => {
             <div className={styles.container}>
                 <div className={styles.containerMain}>{ title }</div>
                 <div className={`${showPage ? styles.containerIcon : styles.noneContainerIcon}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <Image src={isMouseOver ? uri2 : uri} alt="" width={100} height={100} className={styles.icon}/>
+                    <img src={isMouseOver ? uri2 : uri} alt="" width={100} height={100} className={styles.icon}/>
                 </div>
             </div>
         </>

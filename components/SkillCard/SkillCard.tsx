@@ -1,5 +1,5 @@
-import React, { FC, useRef, useEffect } from 'react'
-import Image from 'next/image'
+import React, { FC } from 'react'
+// import Image from 'next/image'
 import { Doughnut } from "react-chartjs-2"
 import {Chart, ArcElement} from 'chart.js'
 import styles from './SkillCard.module.css'
@@ -45,7 +45,8 @@ const SkillCard: FC<SkillCardProps> = ({ title, uri, percent }) => {
             <div className={styles.container}>
                 <Doughnut data={progressData} options={progressOptions} />
                 <div className={styles.contents}>
-                    <Image src={uri} alt='' width={100} height={100} className={styles.icon}/>
+                    <img src={uri} alt='' width={100} height={100} className={styles.icon}/>
+                    {/* <Image src={uri} alt='' width={100} height={100} className={styles.icon}/> */}
                 </div>
             </div>
         </CardFrame>

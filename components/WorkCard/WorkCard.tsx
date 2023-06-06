@@ -1,5 +1,5 @@
-import React, { FC, useRef, useEffect } from 'react'
-import Image from 'next/image'
+import React, { FC } from 'react'
+// import Image from 'next/image'
 import {Chart, ArcElement} from 'chart.js'
 import styles from './WorkCard.module.css'
 import WorkCardFrame from './WorkCardFrame'
@@ -16,7 +16,7 @@ const WorkCard: FC<WorkCardProps> = ({ uri }) => {
         <WorkCardFrame>
             <div className={styles.container}>
                 <div className={styles.contents}>
-                    <Image src={uri} alt='' width={490} height={240} className={styles.icon}/>
+                    <img src={uri} alt='' width={490} height={240} className={styles.icon}/>
                 </div>
             </div>
         </WorkCardFrame>
