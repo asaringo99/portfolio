@@ -40,7 +40,7 @@ const SkillCard: FC<SkillCardProps> = ({ title, uri, percent }) => {
         },
     };
 
-    const preUri = process.env.ASSETS_URI
+    const preUri = process.env.NODE_ENV === 'production' ? '/portfolio' : ''
 
     return (
         <CardFrame>

@@ -12,7 +12,7 @@ interface WorkCardProps {
 
 const WorkCard: FC<WorkCardProps> = ({ uri }) => {
 
-    const preUri = process.env.ASSETS_URI
+    const preUri = process.env.NODE_ENV === 'production' ? '/portfolio' : ''
 
     return (
         <WorkCardFrame>

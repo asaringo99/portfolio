@@ -32,7 +32,7 @@ const TitleWithIcon: FC<TitleWithIconProps> = ({ title, uri, uri2 }) => {
         setIsMouseOver(false)
     }
 
-    const preUri = process.env.ASSETS_URI
+    const preUri = process.env.NODE_ENV === 'production' ? '/portfolio' : ''
 
     return (
         <>
