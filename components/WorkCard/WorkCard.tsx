@@ -12,11 +12,13 @@ interface WorkCardProps {
 
 const WorkCard: FC<WorkCardProps> = ({ uri }) => {
 
+    const preUri = process.env.ASSETS_URI
+
     return (
         <WorkCardFrame>
             <div className={styles.container}>
                 <div className={styles.contents}>
-                    <img src={uri} alt='' width={490} height={240} className={styles.icon}/>
+                    <img src={preUri + uri} alt='' width={490} height={240} className={styles.icon}/>
                 </div>
             </div>
         </WorkCardFrame>

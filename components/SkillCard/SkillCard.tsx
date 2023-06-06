@@ -40,12 +40,14 @@ const SkillCard: FC<SkillCardProps> = ({ title, uri, percent }) => {
         },
     };
 
+    const preUri = process.env.ASSETS_URI
+
     return (
         <CardFrame>
             <div className={styles.container}>
                 <Doughnut data={progressData} options={progressOptions} />
                 <div className={styles.contents}>
-                    <img src={uri} alt='' width={100} height={100} className={styles.icon}/>
+                    <img src={preUri + uri} alt='' width={100} height={100} className={styles.icon}/>
                     {/* <Image src={uri} alt='' width={100} height={100} className={styles.icon}/> */}
                 </div>
             </div>

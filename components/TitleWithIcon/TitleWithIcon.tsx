@@ -32,12 +32,14 @@ const TitleWithIcon: FC<TitleWithIconProps> = ({ title, uri, uri2 }) => {
         setIsMouseOver(false)
     }
 
+    const preUri = process.env.ASSETS_URI
+
     return (
         <>
             <div className={styles.container}>
                 <div className={styles.containerMain}>{ title }</div>
                 <div className={`${showPage ? styles.containerIcon : styles.noneContainerIcon}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <img src={isMouseOver ? uri2 : uri} alt="" width={100} height={100} className={styles.icon}/>
+                    <img src={preUri + `${isMouseOver ? uri2 : uri}`} alt="" width={100} height={100} className={styles.icon}/>
                 </div>
             </div>
         </>
