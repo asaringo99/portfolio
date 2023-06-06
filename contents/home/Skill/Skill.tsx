@@ -17,7 +17,7 @@ const Skill: FC<SkillProps> = ({ title }) => (
                 <SkillCard title='' uri='/node.png' percent={50}/>
             </Container>
             <Container width='180px' height='180px' padding='5px'>
-                <SkillCard title='' uri='/ts.svg' percent={60}/>
+                <SkillCard title='' uri='/ts.png' percent={60}/>
             </Container>
             <Container width='180px' height='180px' padding='5px'>
                 <SkillCard title='' uri='/flutter.png' percent={20}/>
@@ -26,7 +26,7 @@ const Skill: FC<SkillProps> = ({ title }) => (
                 <SkillCard title='' uri='/go.png' percent={55}/>
             </Container>
             <Container width='180px' height='180px' padding='5px'>
-                <SkillCard title='' uri='/C++.webp' percent={60}/>
+                <SkillCard title='' uri='/C++.png' percent={60}/>
             </Container>
             <Container width='180px' height='180px' padding='5px'>
                 <SkillCard title='' uri='/java.png' percent={15}/>
@@ -35,7 +35,7 @@ const Skill: FC<SkillProps> = ({ title }) => (
                 <SkillCard title='' uri='/python.png' percent={60}/>
             </Container>
             <Container width='180px' height='180px' padding='5px'>
-                <SkillCard title='' uri='/nextjs.svg' percent={30}/>
+                <SkillCard title='' uri='/nextjs.png' percent={30}/>
             </Container>
             <Container width='180px' height='180px' padding='5px'>
                 <SkillCard title='' uri='/React.png' percent={40}/>
