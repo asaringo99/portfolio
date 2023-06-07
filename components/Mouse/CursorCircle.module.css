@@ -18,3 +18,9 @@
     height: 70px;
     border-width: 3px;
 }
+
+@media (max-width: 1000px) {
+    .cursor {
+        display: none;
+    }
+}
