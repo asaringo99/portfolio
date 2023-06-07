@@ -1,21 +1,19 @@
 import React, { FC } from 'react'
-import styles from './Container.module.css'
+import styles from './GridParent.module.css'
 
-interface ContainerProps {
+interface GridParentProps {
     id?: string
     height?: string
     width?: string
     padding?: string
-    config?: any
     children: React.ReactNode
 }
 
-const Container: FC<ContainerProps> = ({ id, height, width, padding, config, children }) => {
+const GridParent: FC<GridParentProps> = ({ id, height, width, padding, children }) => {
     const divStyle = {
         height: height,
         width: width,
         padding: padding,
-        ...config,
     };
 
     return (
@@ -23,5 +21,4 @@ const Container: FC<ContainerProps> = ({ id, height, width, padding, config, chi
     )
 }
 
-
-export default Container
+export default GridParent

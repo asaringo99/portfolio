@@ -1,13 +1,14 @@
 .container {
     width: 100%;
-    height: 260px;
+    height: 100%;
+    margin-bottom: 5%;
     display: flex;
     justify-items: center;
     justify-content: center;
 }
 
 .containerMain {
-    font-size: 80px;
+    font-size: 6em;
     font-family: fantasy;
     font-weight: bold;
     background-color: rgb(0, 0, 0);
@@ -15,26 +16,33 @@
     font-style: italic;
     display: flex;
     width: 100%;
-    height: 200px;
+    height: 100%;
+    padding: 2%;
     text-decoration: none;
     justify-content: center;
     align-items: center;
 }
 
+@media (max-width: 1000px) {
+    .containerMain {
+        font-size: 2em;
+    }
+
+}
 .noneContainerIcon {
     display: none;
 }
 
 .containerIcon {
-    top: 150px;
+    width: 8%;
+    aspect-ratio: 1 / 1;
+    top: 55%;
     position: absolute;
     display: inline-block;
     background-color: black;
-    border: 1px solid #000;
-    border-radius: 100%;
+    border-radius: 50%;
     transition: transform 0.1s ease-out;
     animation: slide-up 0.5s ease-out;
-    
 }
 
 @keyframes slide-up {
@@ -49,13 +57,14 @@
 }
 
 .containerIcon:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10%);
 }
 
 .icon {
+    border: 0.1em solid #000;
     display: block;
-    width: 100px;
-    height: 100px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     border-radius: 50%;
 }

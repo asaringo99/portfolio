@@ -16,16 +16,16 @@ const Works: FC<WorksProps> = ({ title }) => (
         <div className={styles.title}>{title}</div>
         <div className={styles.content}>成果物について以下にまとめました！</div>
         <div className={styles.cardContainer}>
-            <Container padding='20px'>
+            <Container config={{'aspect-ratio': '2/1'}} width='40%' padding='2%'>
                 <PortfolioWork2/>
             </Container>
-            <Container padding='20px'>
+            <Container config={{'aspect-ratio': '2/1'}} width='40%' padding='2%'>
                 <PortfolioWork/>
             </Container>
-            <Container padding='20px'>
+            <Container config={{'aspect-ratio': '2/1'}} width='40%' padding='2%'>
                 <KanbanWork/>
             </Container>
-            <Container padding='20px'>
+            <Container config={{'aspect-ratio': '2/1'}} width='40%' padding='2%'>
                 <AuthWork/>
             </Container>
         </div>

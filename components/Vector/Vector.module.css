@@ -24,10 +24,17 @@
 .container:hover {
     border: 1px black;
     opacity: 1;
-    width: 100px;
-    height: 100px;
+    width: 150%;
+    height: 150%;
 }
 
 .container:active {
     border-color: black;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 50%;
+        height: 50%;
+    }
 }

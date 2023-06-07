@@ -1,8 +1,7 @@
 .container {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .contents {
@@ -10,10 +9,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+
 }
 
 .icon {
+    height: 100%;
+    width: 100%;
     display: block;
     object-fit: cover;
     border-radius: 5%;

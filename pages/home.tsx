@@ -1,6 +1,5 @@
 import React, { FC, useRef, useEffect, useState } from 'react'
 import Header from '../components/Header/Header'
-import Footer from '../components/Footer/Footer'
 import FooterWithScroll from '../components/Footer/FooterWithScroll'
 import styles from '../styles/Home.module.css'
 import '../styles/globals.css'
@@ -30,10 +29,10 @@ const Home: FC = () => {
     const worksPageElement = <Works title='Works'/>
 
     const tableOfContents = [
-        { id: 'welcome', name: 'Welcome', height: '1000px', width: '100%', element: receptionPageElement},
-        { id: 'aboutme', name: 'AboutMe', height: '1100px', width: '100%' , element: aboutMyInfoPageElement},
-        { id: 'skills', name: 'Skills', height: '1200px', width: '100%', element: skillsPageElement},
-        { id: 'works', name: 'Works', height: '1100px', width: '100%', element: worksPageElement},
+        { id: 'welcome', name: 'Welcome', height: '25%', width: '100%', element: receptionPageElement},
+        { id: 'aboutme', name: 'AboutMe', height: '25%', width: '100%' , element: aboutMyInfoPageElement},
+        { id: 'skills', name: 'Skills', height: '25%', width: '100%', element: skillsPageElement},
+        { id: 'works', name: 'Works', height: '25%', width: '100%', element: worksPageElement},
         { id: 'thanks', name: 'Thanks'}
     ];
             

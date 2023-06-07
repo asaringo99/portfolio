@@ -4,18 +4,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 600px;
+    height: 100%;
+    padding: 10%;
     background-color: #202020;
 }
 
 .scrollButton {
     position: absolute;
-    bottom: 400px;
+    bottom: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 13%;
+    aspect-ratio: 1/1;
     border: 1px #202020;
     border-radius: 50%;
     background-color: #202020;
@@ -24,28 +25,38 @@
 }
 
 .scrollButton:hover {
-    transform: translateY(-20px);
+    transform: translateY(-10%);
     font-size: 60px;
 }
 
 .scrollButton span {
-    font-size: 60px;
+    font-size: 2em;
     position: absolute;
-    top: 50px;
+    top: 20%;
     color: #ffffff;
     transition: all 0.2s ease-in-out;
 }
 
 .textContainer {
-    font-size: 40px;
+    font-size: 2em;
     font-weight: bold;
     color: azure;
     font-style: italic;
-    padding: 30px;
+    padding: 1.5%;
 }
 
 .copyright {
+    font-size: 1em;
     position: absolute;
     color: rgb(255, 255, 255, 0.5);
-    bottom: 10px;
+    bottom: 1%;
+}
+
+@media (max-width: 800px) {
+    .scrollButton span {
+        font-size: 0.1em;
+    }
+    .textContainer {
+        font-size: 1em;
+    }
 }

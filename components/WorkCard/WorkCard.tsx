@@ -18,7 +18,7 @@ const WorkCard: FC<WorkCardProps> = ({ uri }) => {
         <WorkCardFrame>
             <div className={styles.container}>
                 <div className={styles.contents}>
-                    <img src={preUri + uri} alt='' width={490} height={240} className={styles.icon}/>
+                    <img src={preUri + uri} alt='' width={100} height={50} className={styles.icon}/>
                 </div>
             </div>
         </WorkCardFrame>

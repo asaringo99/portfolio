@@ -41,7 +41,7 @@ const ReceptionPage: FC<ReceptionPageProps> = ({ handleClickVector }) => (
             content='Hi! Welcome To My Portfolio!'
             nextContent="Enjoy Asaringo's Web Page!"
         />
-        <Container height='160px' width='100%' padding='5px'>
+        <Container height='100%' width='100%' padding='5px'>
             <Vector color='rgb(0, 0, 0)' bold={3} handleClick={handleClickVector}/>
         </Container>
     </div>
