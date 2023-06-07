@@ -1,11 +1,11 @@
 .nav {
     position: fixed;
-    height: 60px;
+    height: 70px;
     width: 100%;
     top: 0;
     left: 0;
     background-color: #f8f9fa;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     z-index: 9999;
     justify-content: space-around;
@@ -14,8 +14,6 @@
 
 .nav a {
     display: flex;
-    /* margin-right: 15px;
-    margin-left: 15px; */
     height: 100%;
     width: 20%;
     text-decoration: none;
@@ -32,8 +30,8 @@
 }
 
 .items {
-    height: 70;
-    width: 30%;
+    height: 70px;
+    width: 60%;
     display: flex;
     justify-content: space-around;
 }

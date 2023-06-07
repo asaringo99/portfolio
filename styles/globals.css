@@ -5,6 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    width: 100%;
     /* background: linear-gradient(to right, #d6dbe0, #b0bccd, #b0bccd, #b0bccd, #d6dbe0); */
     background-color: rgba(135, 101, 131, 0.216);
 }
@@ -13,18 +14,17 @@ a {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
 
 header {
     background-color: #f8f9fa;
-    padding: 20px 0;
+    padding: 20px;
 }
 
 nav a {
-    margin-right: 15px;
     text-decoration: none;
     color: #333;
 }
