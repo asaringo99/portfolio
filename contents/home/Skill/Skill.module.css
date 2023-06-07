@@ -37,7 +37,7 @@
 }
 
 .cardContainer {
-    width: 50%;
+    width: 60%;
     padding: 1%;
     display: flex;
     justify-content: center;
@@ -50,5 +50,8 @@
     }
     .content {
         font-size: 1em;
+    }
+    .cardContainer {
+        width: 100%;
     }
 }

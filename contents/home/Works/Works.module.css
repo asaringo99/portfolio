@@ -50,4 +50,8 @@
     .content {
         font-size: 1em;
     }
+    .cardContainer {
+        width: 100%;
+        padding: 2%;
+    }
 }
