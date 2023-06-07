@@ -61,6 +61,9 @@ const Skill: FC<SkillProps> = ({ title }) => (
             <Container width='150px' height='150px' padding='5px'>
                 <SkillCard title='' uri='/atcoder.png' percent={60}/>
             </Container>
+            <Container width='150px' height='150px' padding='5px'>
+                <SkillCard title='' uri='/codeforces.png' percent={50}/>
+            </Container>
         </div>
     </div>
 )
