@@ -10,8 +10,8 @@ interface SkillProps {
 const Skill: FC<SkillProps> = ({ title }) => (
     <div className={styles.container}>
         <div className={styles.title}>{title}</div>
-        <div className={styles.content}>全般的に知識が浅いですね...。</div>
-        <div className={styles.content}>ですが、少しずつ理解を深めて強いエンジニアになってみせます！！</div>
+        <div className={styles.content}>全般的に知識がまだまだ浅いです...。</div>
+        <div className={styles.content}>ですが少しずつ理解を深めて強いエンジニアになってみせます！！</div>
         <div className={styles.cardContainer}>
             <Container width='150px' height='150px' padding='5px'>
                 <SkillCard title='' uri='/node.png' percent={50}/>
@@ -57,6 +57,9 @@ const Skill: FC<SkillProps> = ({ title }) => (
             </Container>
             <Container width='150px' height='150px' padding='5px'>
                 <SkillCard title='' uri='/k8s.png' percent={30}/>
+            </Container>
+            <Container width='150px' height='150px' padding='5px'>
+                <SkillCard title='' uri='/atcoder.png' percent={30}/>
             </Container>
         </div>
     </div>
