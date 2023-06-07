@@ -27,16 +27,15 @@
     .containerMain {
         font-size: 2em;
     }
-
 }
 .noneContainerIcon {
     display: none;
 }
 
 .containerIcon {
-    width: 8%;
+    width: 7%;
     aspect-ratio: 1 / 1;
-    top: 55%;
+    top: 50%;
     position: absolute;
     display: inline-block;
     background-color: black;
