@@ -9,8 +9,19 @@ body {
     /* background: linear-gradient(to right, #d6dbe0, #b0bccd, #b0bccd, #b0bccd, #d6dbe0); */
     background-color: rgba(135, 101, 131, 0.216);
 }
+
+
 a {
     cursor: none;
+}
+
+@media (max-width: 800px) {
+    body {
+        cursor: auto;
+    }
+    a {
+        cursor: auto;
+    }
 }
 
 .container {

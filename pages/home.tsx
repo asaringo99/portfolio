@@ -63,7 +63,7 @@ const Home: FC = () => {
     return (
         <>
             <Header />
-            <div style={{ cursor: 'none' }} className={styles.container}>
+            <div className={styles.container}>
                 <CurrentSectionContext.Provider value={currentSection}>
                     {tableOfContents.map((section) => (
                         <>
