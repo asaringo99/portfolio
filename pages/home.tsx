@@ -43,7 +43,7 @@ const Home: FC = () => {
                     setCurrentSection(entry.target.id);
                 }
             });
-        }, { threshold: 0.3 });  // Adjust this value to your liking
+        }, { threshold: 0 });  // Adjust this value to your liking
         
         tableOfContents.forEach((section) => {
             const sectionEl = sectionRefs.current[section.id];

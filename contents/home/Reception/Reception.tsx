@@ -14,21 +14,21 @@ const Reception: FC<ReceptionProps> = ({ content, nextContent }) => {
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
-            setShowPage(true); // 3秒後にページを表示
+            setShowPage(true);
         }, 2000);
 
         return () => {
-            clearTimeout(timeoutId); // コンポーネントがアンマウントされたらタイマーをクリア
+            clearTimeout(timeoutId);
         };
     }, []);
     
     useEffect(() => {
         const timeoutId = setTimeout(() => {
-            setShowNextContent(true); // 3秒後にページを表示
+            setShowNextContent(true);
         }, 5500);
 
         return () => {
-            clearTimeout(timeoutId); // コンポーネントがアンマウントされたらタイマーをクリア
+            clearTimeout(timeoutId);
         };
     }, []);
 
