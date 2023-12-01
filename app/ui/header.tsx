@@ -9,11 +9,11 @@ import { NewspaperIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import Image from "next/image";
 import { satisfy, cabin } from "@/ui/font";
-import RotatingGear from "./rotatinggear";
+import RotatingGear from "@/ui/rotating-gear";
 
 export default function HeaderNav() {
   return (
-    <div className="flex w-full bg-gray-50/90">
+    <div className="flex w-full bg-gray-50/90 invisible lg:visible">
       <div className="flex w-1/2 flex-row items-center">
         <div className="flex justify-items-start p-8 text-black text-5xl">
           <Link

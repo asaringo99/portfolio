@@ -7,7 +7,6 @@ import {
   Caveat,
   Satisfy,
   Viga,
-  Overpass,
   Dosis,
 } from 'next/font/google'
 

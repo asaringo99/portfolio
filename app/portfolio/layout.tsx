@@ -1,6 +1,5 @@
 import React from "react";
-import HeaderNav from '@/ui/portfolio/header'
-import { cabin } from "@/ui/font";
+import HeaderNav from '@/ui/header'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -8,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <div className="w-full fixed z-50">
         <HeaderNav/>
       </div>
-      <div className="flex-grow overflow-y-auto">{children}</div>
+      <div className="flex-grow overflow-y-auto overflow-x-hidden">{children}</div>
     </div>
   )
 }

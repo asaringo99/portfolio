@@ -1,9 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 import clsx from 'clsx';
-import { opensans } from '@/ui/font';
 
-export default function PopUpText(props: { text: string }){
-  const { text } = props;
+export default function PopUpText(props: { text: string, offset: number }){
+  const { text, offset } = props;
   const [isVisible, setIsVisible] = useState(false);
   const textRef = useRef(null);
 
@@ -12,9 +11,8 @@ export default function PopUpText(props: { text: string }){
       if (textRef.current) {
         const { offsetTop } = textRef.current;
         const scrollPosition = window.scrollY + window.innerHeight;
-        console.log(offsetTop, window.scrollY, scrollPosition)
 
-        setIsVisible(scrollPosition > offsetTop + 150);
+        setIsVisible(scrollPosition > offsetTop + offset);
       }
     };
 
@@ -36,7 +34,7 @@ export default function PopUpText(props: { text: string }){
         }
       )}
     >
-      <div className={`text-3xl ${opensans.className}`}>
+      <div className="text-xs md:text-3xl">
         {text}
       </div>
     </div>
