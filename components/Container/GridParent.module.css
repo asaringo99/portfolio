@@ -1,8 +1,0 @@
-.container {
-    display: grid;
-    grid-auto-flow: dense;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: space-around;
-    justify-items: center;
-    /* align-content: start; */
-}
