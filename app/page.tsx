@@ -8,7 +8,7 @@ export default function Home() {
         <span className="font-bold text-6xl flex text-white">ASARINGO</span>
       </div>
       <p className={`mt-8 px-20 text-sm opacity-50 text-white group-hover:text-black`}>
-        Hello! I am a brave hero who battles against villains, with love and courage as my only companions! I also reach out to those in need and cheer up crying children! Every day, I oversee the world's order from the sky, ensuring that no problems arise! My goal is to achieve world peace, and I long for the day when people can live every day with smiles on their faces! However, even I sometimes falter in the face of villains. They exploit my weakness, which is water, to weaken me. But that's not going to stop me. Everyone is rooting for my victory. I must adapt, change my tactics, and even alter my head to win. Today, as always, I rely on Ms. Batako's control and head out on patrol!
+        Hello! I am a brave hero who battles against villains, with love and courage as my only companions! I also reach out to those in need and cheer up crying children! Every day, I oversee the world<span>&apos;</span>s order from the sky, ensuring that no problems arise! My goal is to achieve world peace, and I long for the day when people can live every day with smiles on their faces! However, even I sometimes falter in the face of villains. They exploit my weakness, which is water, to weaken me. But that<span>&apos;</span>s not going to stop me. Everyone is rooting for my victory. I must adapt, change my tactics, and even alter my head to win. Today, as always, I rely on Ms. Batako<span>&apos;</span>s control and head out on patrol!
       </p>
 
       <div className="mb-32 flex text-center lg:mb-0 lg:grid-cols-4 lg:text-left bottom-0 pt-40">
@@ -24,7 +24,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[40ch] text-xs opacity-50 text-white group-hover:text-black`}>
-            If you really, truly want to view my portfolio, you can do so by clicking this link. However, only proceed if you are absolutely sure. If that's the case, please feel free to access the portfolio link.
+            If you really, truly want to view my portfolio, you can do so by clicking this link. However, only proceed if you are absolutely sure. If that<span>&apos;</span>s the case, please feel free to access the portfolio link.
           </p>
         </Link>
       </div>
