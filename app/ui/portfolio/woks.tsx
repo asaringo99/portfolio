@@ -15,7 +15,7 @@ export default function Works() {
       <div className="h-2/3 w-full flex justify-center flex-wrap px-20 pb-20">
         {data.map((d) => {
           return (
-            <li key={d.name} className="flex flex-col items-center justify-center p-8">
+            <li key={d.name} className="flex flex-col items-center justify-center p-8 text-black">
               <div className={`p-4 text-2xl ${novasquare.className}`}>
                 {d.name}
               </div>
