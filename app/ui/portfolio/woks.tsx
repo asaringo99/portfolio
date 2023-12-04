@@ -15,12 +15,12 @@ export default function Works() {
       <div className="h-2/3 w-full flex justify-center flex-wrap px-20 pb-20">
         {data.map((d) => {
           return (
-            <div className="flex flex-col items-center justify-center p-8">
+            <li key={d.name} className="flex flex-col items-center justify-center p-8">
               <div className={`p-4 text-2xl ${novasquare.className}`}>
                 {d.name}
               </div>
               <Image
-                className="h-80 w-auto cursor-pointer forcus:cursor-auto"
+                className="h-80 w-auto cursor-pointer hover:cursor-none transition duration-300 hover:-translate-y-2"
                 src={d.uri}
                 height="500"
                 width="500"
@@ -29,7 +29,7 @@ export default function Works() {
               <div className="p-4">
                 {d.description.en}
               </div>
-            </div>
+            </li>
           )
         })}
       </div>

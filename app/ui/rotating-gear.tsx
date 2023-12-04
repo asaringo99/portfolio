@@ -7,7 +7,7 @@ export default function RotatingGear() {
   const [rotation, setRotation] = useState(0);
   
   const handleScroll = () => {
-    const scrollY = window.scrollY / 5;
+    const scrollY = window.scrollY;
     setRotation(scrollY % 360);
   };
   
@@ -22,7 +22,9 @@ export default function RotatingGear() {
   return (
     <CogIcon 
       className="h-20 w-20" 
-      style={{ transform: `rotate(${rotation}deg)`, transition: 'transform 0.5s ease-out' }} 
+      style={{
+        transform: `rotate(${rotation}deg)`,
+      }} 
     />
   );
 };

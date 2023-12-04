@@ -13,7 +13,7 @@ const data: WorkData[] = [
     uri: "/works/portfolio.png",
     description: {
       ja: "",
-      en: "Take a peek at my portfolio! It's a delightful blend of classic 2D elegance and modern web tech. I've jazzed it up with Tailwind CSS, adding a custom, stylish touch to every detail. There's also some Next.js wizardry under the hood, making it slick and efficient. Plus, it's all seamlessly deployed on Vercel, ensuring top-notch performance. It's not just a portfolio; it's a sleek showcase of web creativity!",
+      en: "I have launched my personal portfolio website. It showcases my skills and projects. I used Tailwind CSS to achieve a clean and modern layout. Additionally, it was built with Next.js and deployed on Vercel",
     }
   },
   { 
@@ -21,7 +21,7 @@ const data: WorkData[] = [
     uri: "/works/particle.png",
     description: {
       ja: "",
-      en: "Dive into the digital cosmos with my browser-based particle simulation! This isn't your average web project – it's a journey into the realm of particle physics, all from the comfort of your browser. Leveraging the power of particle-based numerical methods, this simulation brings the intricate dance of particles to life. Watch in awe as thousands of tiny particles interact, following the laws of physics in a mesmerizing display. Whether you're a science enthusiast or just love cool tech, this simulation is sure to spark your curiosity and imagination. It's not just a project; it's a window into the micro-universe, right at your fingertips!",
+      en: "I'm thrilled to share my latest project - a particle collision simulation based on particle system algorithms, all running in your web browser. Using JavaScript, this simulation visualizes how particles interact and collide, offering a fascinating glimpse into the world of physics. It's a great tool for anyone interested in seeing complex theories in action or for those who simply enjoy visually appealing simulations. Check it out to experience the wonder of physics in a new and interactive way!",
     }
   },
   {
@@ -29,7 +29,7 @@ const data: WorkData[] = [
     uri: "/works/kanban.png",
     description: {
       ja: "",
-      en: "Step into the world of seamless organization with my custom-made Kanban board application! This isn't just any task management tool; it's a powerhouse of efficiency wrapped in a sleek, user-friendly interface. With intuitive drag-and-drop functionality, managing your projects becomes a breeze. Each task glides across the board with a simple swipe of your finger or click of the mouse, allowing for effortless organization. Whether it's for personal productivity or team collaboration, this high-functionality app adapts to your needs, making it the ultimate tool for anyone looking to streamline their workflow. Get ready to experience task management like never before!",
+      en: "I'm excited to share a project I've been working on: a Kanban board application inspired by GitHub, built with React for the frontend and Go for the backend. This project combines the robustness of Go's performance with the flexibility and responsiveness of a React-based UI. The Kanban board allows for efficient task management and organization, mirroring the streamlined functionality found in GitHub's own system. It's a great example of how combining different technologies can lead to a powerful and user-friendly application. This project showcases my skills in both front-end and back-end development, providing a comprehensive solution for task management needs.",
     }
   },
 ]

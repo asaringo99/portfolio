@@ -1,9 +1,9 @@
 'use client'
 
-import Start from './start'
-import AboutMe from './aboutme'
-import Skills from './skills'
-import Works from './woks'
+import Start from '@/ui/portfolio/start'
+import AboutMe from '@/ui/portfolio/aboutme'
+import Skills from '@/ui/portfolio/skills'
+import Works from '@/ui/portfolio/woks'
 
 export default function Page() {
   return(

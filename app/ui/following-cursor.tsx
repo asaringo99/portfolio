@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import styles from './FollowingCircle.module.css'
 
-const FollowingCircle: React.FC = () => {
+export default function FollowingCircle() {
     const cursorRef = useRef<HTMLDivElement | null>(null);
     const positionRef = useRef({x: 0, y: 0});
     const targetRef = useRef({x: 0, y: 0});
@@ -40,10 +40,9 @@ const FollowingCircle: React.FC = () => {
 
     return (
         <div
-        className={styles.cursor}
-        ref={cursorRef}
+          className='fixed border-2 border-black pointer-events-none bg-transparent w-24 h-24 -translate-x-1/2 -translate-y-1/2 rounded-full z-50'
+          ref={cursorRef}
         />
     );
 };
 
-export default FollowingCircle;
